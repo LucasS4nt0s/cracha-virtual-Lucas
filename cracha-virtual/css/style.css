@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(202, 200, 200);
+}
+.card-perfil {
+     width: 350px;
+     height: 500px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10%;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(75, 73, 73);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#nome {
+    color: rgb(2, 19, 13);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profissao {
+    color: rgb(2, 19, 13);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.bt_html{
+    background-color: rgba(255, 0, 0, 0.24);
+    border: none;
+    border-radius: 30%;
+}
+
+.btn_html {
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
