@@ -4,16 +4,17 @@ body {
 .card-perfil {
      width: 350px;
      height: 500px;
-     background-color: rgb(255, 255, 255);
+     background-image: linear-gradient(rgb(250, 250, 250),rgb(139, 112, 202)); 
      border-radius: 10%;
 }
 
 .avatar {
     width: 100px;
     height: 100px;
-    background-color: rgb(75, 73, 73);
+    background-color: rgba(75, 73, 73, 0.384);
     border-radius: 50%;
     margin-top: 20px;
+    filter: saturate(75%);
 }
 
 #nome {
@@ -69,14 +70,14 @@ body {
 }
 
 .bt_dispo {
-    background-color: rgba(238, 255, 0, 0.24);
+    background-color: rgba(238, 238, 243, 0.301);
     border: none;
     border-radius: 30%;
     margin-top: 20px;
 }
 
 .disponivel {
-    color: rgb(148, 138, 2);
+    color: rgb(0, 0, 0);
     font-weight: bolder;
 }
 
