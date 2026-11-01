@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: rgb(202, 200, 200);
 }
 .card-perfil {
+    margin-top: 20px;
      width: 350px;
      height: 500px;
      background-image: linear-gradient(rgb(250, 250, 250),rgb(139, 112, 202)); 
@@ -13,76 +20,76 @@ body {
     height: 100px;
     background-color: rgba(75, 73, 73, 0.384);
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 30px;
     filter: saturate(75%);
 }
 
 #nome {
     color: rgb(2, 19, 13);
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
 }
 
 .profissao {
     color: rgb(2, 19, 13);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    margin-bottom: 10px;
 }
 
-.bt_html{
-    background-color: rgba(255, 0, 0, 0.24);
-    border: none;
-    border-radius: 30%;
+.modalidades {
+    margin-top: 10px;
+}
+
+.badge{
+    letter-spacing: 0.8px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
     margin-bottom: 10px;
 }
 
 .btn_html {
-    color: red;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgba(204, 2, 2, 0.322);
+    color: rgb(204, 2, 2);
     font-weight: bolder;
-}
-
-.bt_python {
-    background-color: rgba(0, 81, 255, 0.24);
-    border: none;
-    border-radius: 30%;
-    margin-bottom: 10px;
 }
 
 .btn_python {
-    color: rgb(17, 0, 255);
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgba(18, 7, 179, 0.322);
+    color: rgb(19, 7, 179);
     font-weight: bolder;
 }
 
-.bt_java {
-    background-color: rgba(0, 255, 42, 0.24);
-    border: none;
-    border-radius: 30%;
-}
-
 .btn_java {
-    color: rgb(4, 145, 46);
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgba(230, 124, 4, 0.322);
+    color: rgb(141, 76, 2);
     font-weight: bolder;
 }
 
 .bio {
     color: rgb(2, 19, 13);
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.bt_dispo {
-    background-color: rgba(238, 238, 243, 0.301);
-    border: none;
-    border-radius: 30%;
-    margin-top: 20px;
-}
-
-.disponivel {
-    color: rgb(0, 0, 0);
-    font-weight: bolder;
+    margin-bottom: 10px;
 }
 
 .senai {
     color: blue;
     font-weight: bold;
     text-decoration: underline;
+}
+
+.disponivel {
+    background-color: rgba(56, 255, 6, 0.473);
+    color: rgb(4, 92, 1);
+    font-weight: bolder;
+    margin-top: 25px;
 }
